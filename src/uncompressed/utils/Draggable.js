@@ -267,7 +267,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 					return rv;
 				} else if (element.style && element.style[prop]) { //shadow dom elements don't have "style".
 					rv = element.style[prop];
-				} else if ((cs = _getComputedStyle(element))) {
+				} else if ((cs = _getComputedStyle(element instanceof Element ? element : element.body))) {
 					rv = cs.getPropertyValue(prop.replace(/([A-Z])/g, "-$1").toLowerCase());
 					rv = (rv || cs.length) ? rv : cs[prop]; //Opera behaves VERY strangely - length is usually 0 and cs[prop] is the only way to get accurate results EXCEPT when checking for -o-transform which only works with cs.getPropertyValue()!
 				} else if (element.currentStyle) {
