@@ -1,20 +1,17 @@
 /*!
  * VERSION: 0.1.3
- * DATE: 2018-02-15
+ * DATE: 2018-08-27
  * UPDATES AND DOCS AT: http://greensock.com
  *
  * @license Copyright (c) 2008-2018, GreenSock. All rights reserved.
  * This work is subject to the terms at http://greensock.com/standard-license or for
  * Club GreenSock members, the software agreement that was issued with your membership.
- * 
+ *
  * @author: Jack Doyle, jack@greensock.com
  */
-var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(global) !== "undefined") ? global : this || window; //helps ensure compatibility with AMD/RequireJS and CommonJS/Node
-(_gsScope._gsQueue || (_gsScope._gsQueue = [])).push( function() {
-	
-	"use strict";
+import { _gsScope } from "./TweenLite.js";
 
-	_gsScope._gsDefine.plugin({
+export var EndArrayPlugin = _gsScope._gsDefine.plugin({
 		propName: "endArray",
 		API: 2,
 		version: "0.1.3",
@@ -68,4 +65,4 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 
 	});
 
-}); if (_gsScope._gsDefine) { _gsScope._gsQueue.pop()(); }
+export { EndArrayPlugin as default };

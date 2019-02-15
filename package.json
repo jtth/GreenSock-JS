@@ -1,52 +1,50 @@
 {
-  "_from": "github:jtth/GreenSock-JS",
+  "_from": "gsap@2.0.2",
   "_id": "gsap@2.0.2",
   "_inBundle": false,
-  "_integrity": "",
+  "_integrity": "sha512-WyT0uuDNb+5xMccx4SsVcI1CwvIL0BPgP8TyJJmMWT/btGXUNtKesnkXFMMshYs37renFhDo1P5NEoizeonviQ==",
   "_location": "/gsap",
   "_phantomChildren": {},
   "_requested": {
-    "type": "git",
-    "raw": "jtth/GreenSock-JS",
-    "rawSpec": "jtth/GreenSock-JS",
-    "saveSpec": "github:jtth/GreenSock-JS",
-    "fetchSpec": null,
-    "gitCommittish": null
+    "type": "version",
+    "registry": true,
+    "raw": "gsap@2.0.2",
+    "name": "gsap",
+    "escapedName": "gsap",
+    "rawSpec": "2.0.2",
+    "saveSpec": null,
+    "fetchSpec": "2.0.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "github:jtth/GreenSock-JS#057e4383db6b1b908939706ce4e082688a9abf90",
-  "_spec": "jtth/GreenSock-JS",
-  "_where": "/Users/jtth/src/bbl/ireadbetter/new/iReadBetter",
+  "_resolved": "https://registry.npmjs.org/gsap/-/gsap-2.0.2.tgz",
+  "_shasum": "c82bde9a078f7922869fc2eb5aaecfa7592d1c2b",
+  "_spec": "gsap@2.0.2",
+  "_where": "/Users/jtth/src/bbl/ireadbetter/wordtransformer",
   "browser": {
-    "./src/uncompressed/TimelineLite.js": "./TimelineLite.js",
-    "./src/uncompressed/TimelineMax.js": "./TimelineMax.js",
-    "./src/uncompressed/TweenLite.js": "./TweenLite.js",
-    "./src/uncompressed/TweenMax.js": "./TweenMax.js",
-    "./src/uncompressed/easing/EasePack.js": "./EasePack.js",
-    "./src/uncompressed/jquery.gsap.js": "./jquery.gsap.js",
-    "./src/uncompressed/plugins/AttrPlugin.js": "./AttrPlugin.js",
-    "./src/uncompressed/plugins/BezierPlugin.js": "./BezierPlugin.js",
-    "./src/uncompressed/plugins/CSSPlugin.js": "./CSSPlugin.js",
-    "./src/uncompressed/plugins/CSSRulePlugin.js": "./CSSRulePlugin.js",
-    "./src/uncompressed/plugins/ColorPropsPlugin.js": "./ColorPropsPlugin.js",
-    "./src/uncompressed/plugins/DirectionalRotationPlugin.js": "./DirectionalRotationPlugin.js",
-    "./src/uncompressed/plugins/EaselPlugin.js": "./EaselPlugin.js",
-    "./src/uncompressed/plugins/EndArrayPlugin.js": "./EndArrayPlugin.js",
-    "./src/uncompressed/plugins/ModifiersPlugin.js": "./ModifiersPlugin.js",
-    "./src/uncompressed/plugins/PixiPlugin.js": "./PixiPlugin.js",
-    "./src/uncompressed/plugins/RaphaelPlugin.js": "./RaphaelPlugin.js",
-    "./src/uncompressed/plugins/RoundPropsPlugin.js": "./RoundPropsPlugin.js",
-    "./src/uncompressed/plugins/ScrollToPlugin.js": "./ScrollToPlugin.js",
-    "./src/uncompressed/plugins/TextPlugin.js": "./TextPlugin.js",
-    "./src/uncompressed/utils/Draggable.js": "./Draggable.js"
-  },
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
+    "./src/uncompressed/TimelineLite.js": "./umd/TimelineLite.js",
+    "./src/uncompressed/TimelineMax.js": "./umd/TimelineMax.js",
+    "./src/uncompressed/TweenLite.js": "./umd/TweenLite.js",
+    "./src/uncompressed/TweenMax.js": "./umd/TweenMax.js",
+    "./src/uncompressed/easing/EasePack.js": "./umd/EasePack.js",
+    "./src/uncompressed/jquery.gsap.js": "./umd/jquery.gsap.js",
+    "./src/uncompressed/plugins/AttrPlugin.js": "./umd/AttrPlugin.js",
+    "./src/uncompressed/plugins/BezierPlugin.js": "./umd/BezierPlugin.js",
+    "./src/uncompressed/plugins/CSSPlugin.js": "./umd/CSSPlugin.js",
+    "./src/uncompressed/plugins/CSSRulePlugin.js": "./umd/CSSRulePlugin.js",
+    "./src/uncompressed/plugins/ColorPropsPlugin.js": "./umd/ColorPropsPlugin.js",
+    "./src/uncompressed/plugins/DirectionalRotationPlugin.js": "./umd/DirectionalRotationPlugin.js",
+    "./src/uncompressed/plugins/EaselPlugin.js": "./umd/EaselPlugin.js",
+    "./src/uncompressed/plugins/EndArrayPlugin.js": "./umd/EndArrayPlugin.js",
+    "./src/uncompressed/plugins/ModifiersPlugin.js": "./umd/ModifiersPlugin.js",
+    "./src/uncompressed/plugins/PixiPlugin.js": "./umd/PixiPlugin.js",
+    "./src/uncompressed/plugins/RaphaelPlugin.js": "./umd/RaphaelPlugin.js",
+    "./src/uncompressed/plugins/RoundPropsPlugin.js": "./umd/RoundPropsPlugin.js",
+    "./src/uncompressed/plugins/ScrollToPlugin.js": "./umd/ScrollToPlugin.js",
+    "./src/uncompressed/plugins/TextPlugin.js": "./umd/TextPlugin.js",
+    "./src/uncompressed/utils/Draggable.js": "./umd/Draggable.js"
   },
   "bugs": {
     "url": "https://greensock.com/forums/"
@@ -54,7 +52,7 @@
   "bundleDependencies": false,
   "deprecated": false,
   "description": "GSAP is a JavaScript library for creating high-performance animations that work in **every** major browser (or beyond the browser). No other library delivers such advanced sequencing, reliability, API efficiency, and tight control while solving real-world problems on over 4 million sites. GSAP works around countless browser inconsistencies; your animations 'just work'. Animate CSS properties, SVG, canvas libraries, custom properties of generic objects, colors, strings...pretty much anything! At its core, GSAP is a property manipulator, updating values over time very quickly with extreme accuracy. And it's up to 20x faster than jQuery! See http://greensock.com/why-gsap/ for details about what makes GSAP so special.",
-  "filename": "TweenMax.min.js",
+  "filename": "index.js",
   "homepage": "https://greensock.com/gsap/",
   "keywords": [
     "animation",
@@ -81,7 +79,7 @@
     "tweening"
   ],
   "license": "Standard 'no charge' license: https://greensock.com/standard-license. Club GreenSock members get more: https://greensock.com/licensing/. Why GreenSock doesn't employ an MIT license: https://greensock.com/why-license/",
-  "main": "./src/uncompressed/TweenMax.js",
+  "main": "./umd/TweenMax.js",
   "maintainers": [
     {
       "name": "Jack Doyle",
@@ -89,16 +87,16 @@
       "url": "https://greensock.com"
     }
   ],
-  "module": "./src/esm/index.js",
+  "module": "index.js",
   "name": "gsap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jtth/GreenSock-JS.git"
+    "url": "git+https://github.com/greensock/GreenSock-JS.git"
   },
   "sideEffects": [
-    "./src/esm/TweenLite.js",
-    "./src/esm/TweenMax.js",
-    "./src/esm/index.js"
+    "./TweenLite.js",
+    "./TweenMax.js",
+    "./index.js"
   ],
   "version": "2.0.2"
 }
